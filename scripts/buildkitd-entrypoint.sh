@@ -11,6 +11,6 @@ rootlesskit \
 pid=$!
 while [ ! -f /status/done ]
 do
-  sleep 10
+  sleep 5
 done
 kill $pid
